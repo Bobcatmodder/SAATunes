@@ -9,7 +9,7 @@ A library to play MIDI tunes on the SAA1099 sound generator chip using an arduin
 	 You can find his library at: https://github.com/LenShustek/arduino-playtune
 	 
    
-   How to use this library:
+How to use this library:
    
    	For the moment, I've not documented this yet. I plan to as soon as possible, with an instructable
    	and video. However, if anyone is really impatient, here's a brief overview. 
@@ -25,13 +25,13 @@ A library to play MIDI tunes on the SAA1099 sound generator chip using an arduin
    
    	As noted before, it'd be best to wait till I have the actual guide out, which I will try to finish ASAP.
    
-	 Sepcial features and MIDI functions this library supports
+Special features and MIDI functions this library supports
 	 
 	 	- Velocity Data (Which is interpreted as the initial note volume)
 	 	- Which channels are off/on, accessed through a boolean array
 	 	- Note volume decay (Decays the volume of a note that is held on over a specified rate)
 	 
-	 What I would like to add in the future
+What I would like to add in the future
 	 
 	 	- Using the SAA1099's built in noise channels for percussion (Which Len's original library supports)
 		 - Using the SAA1099's built in envelope generators for different insturments (Maybe also some software generated envelopes, or wiggling the note's frequency back/forth slightly to produce a different sound?)
