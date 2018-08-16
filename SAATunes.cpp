@@ -57,7 +57,7 @@
      - Original (release) library version, v1.03
   -----------------------------------------------------------------------------------------*/
 
-#include <arduino.h>
+#include <Arduino.h>
 
 #include "SAATunes.h"
 
