@@ -1,4 +1,5 @@
-# SAATunes v 1.03 (Original Release version)
+# SAATunes v 1.04 
+(Same as v1.03 but with one bug fix)
 	 
 A library to play MIDI tunes on the SAA1099 sound generator chip using an arduino
    
