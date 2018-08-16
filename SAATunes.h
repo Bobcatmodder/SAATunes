@@ -18,7 +18,7 @@
 #ifndef SAATunes_h
 #define SAATunes_h
 
-#include <arduino.h>
+#include <Arduino.h>
 
 class SAATunes
 {
