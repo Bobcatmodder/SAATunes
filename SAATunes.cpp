@@ -13,7 +13,7 @@
 	 bytestream is my own, and I've added a few tidbits that weren't in Len's original
 	 library.
 	 
-	 Sepcial features and MIDI functions this library supports
+	 Special features and MIDI functions this library supports
 	 
 	 - Velocity Data (Which is interpreted as the initial note volume)
 	 - Which channels are off/on, accessed through a boolean array
@@ -105,7 +105,7 @@ byte decayTimer[] = {0, 0, 0, 0, 0, 0};
 byte decayVolume[] = {0, 0, 0, 0, 0, 0};
 boolean doingDecay[] = {false, false, false, false, false, false};
 
-//Modifyable delay rate variable (In MS, and each time the specified number of MS has passed, decays volume by 1/16).
+//Modifiable delay rate variable (In MS, and each time the specified number of MS has passed, decays volume by 1/16).
 unsigned int SAATunes::decayRate = 125; //Originally 125, which is what I determined is /roughly/ correct for how long piano notes sustain while held down
 #endif
 
