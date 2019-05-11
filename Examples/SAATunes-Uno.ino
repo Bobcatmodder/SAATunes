@@ -27,7 +27,7 @@ SAATunes st;
 
 void setup() {
 
-  //Initalize the WE and A0 pins, on digital pins 9, and 8. (Change to whatever)
+  //Initialize the WE and A0 pins, on digital pins 9, and 8. (Change to whatever)
   st.init_pins(9, 8);
   
 }
